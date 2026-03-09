@@ -1,0 +1,53 @@
+name: mrbtube
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  serious_python: ^0.9.10
+  permission_handler: ^12.0.1
+  video_player: ^2.8.2       # Video Engine
+  audioplayers: ^5.2.1       # Audio Engine
+  file_picker: ^8.0.0        # Local file select karne ke liye
+  wakelock_plus: ^1.4.0
+  path_provider: ^2.1.5
+  youtube_explode_dart: ^3.0.5
+  dynamic_color: ^1.8.1
+  expressive_loading_indicator: ^0.0.1
+  shared_preferences: ^2.2.2  # Local data save karne ke liye
+  provider: ^6.1.1            # State management ke liye (Theme handle karne mein aasan hoga)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0  
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"  
+  min_sdk_android: 24
+
+
+flutter_native_splash:
+  color: "#000000"              # Tera OLED Black background
+  image: "assets/images/logoS.png"  
+  android_12:
+    image: "assets/images/logoS.png"  
+    color: "#000000"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - app/app.zip
+    - assets/images/d_logo.png   # Home page ke liye
+    - assets/images/logo.png
+    - assets/images/logoS.png
