@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>📺 MrbTube</h1>
+  <h1>MrbTube</h1>
   <p><b>A modern, lightning-fast, and open-source video client built with Flutter.</b></p>
   
   <p>
@@ -25,7 +25,4 @@ Want to build or test **MrbTube** on your own machine? Follow these simple steps
 
 **Prerequisite:** Make sure you have the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
 
- Clone the repository**
-
-git clone [https://github.com/Mrb-Official/MrbTube.git](https://github.com/Mrb-Official/MrbTube.git)
-cd MrbTube
+ Clone the repository
