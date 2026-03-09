@@ -25,7 +25,7 @@ Want to build or test **MrbTube** on your own machine? Follow these simple steps
 
 **Prerequisite:** Make sure you have the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
 
-**1. Clone the repository**
-```bash
+ Clone the repository**
+
 git clone [https://github.com/Mrb-Official/MrbTube.git](https://github.com/Mrb-Official/MrbTube.git)
 cd MrbTube
