@@ -35,7 +35,7 @@
   &nbsp;&nbsp;
   <img src="assets/images/20260308_153026.png" width="100%" alt="fetch url data" />
   &nbsp;&nbsp;
-  <img src="assets/images/20260308_152452.png" width="30%" alt="Setting" />
+  <img src="assets/images/20260308_152452.png" width="100%" alt="Setting" />
 </div>
 
 <br/>
