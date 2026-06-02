@@ -31,9 +31,9 @@
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="assets/images/Screenshot_20260305_102012.jpg" width="30%" alt="Home" />
+  <img src="assets/images/Screenshot_20260305_102012.jpg" width="100%" alt="Home" />
   &nbsp;&nbsp;
-  <img src="assets/screenshots/screenshot2.png" width="30%" alt="Player" />
+  <img src="assets/images/20260308_153026.png" width="100%" alt="Player" />
   &nbsp;&nbsp;
   <img src="assets/screenshots/screenshot3.png" width="30%" alt="Search" />
 </div>
