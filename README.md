@@ -33,9 +33,9 @@
 <div align="center">
   <img src="assets/images/Screenshot_20260305_102012.jpg" width="100%" alt="Home" />
   &nbsp;&nbsp;
-  <img src="assets/images/20260308_153026.png" width="100%" alt="Player" />
+  <img src="assets/images/20260308_153026.png" width="100%" alt="fetch url data" />
   &nbsp;&nbsp;
-  <img src="assets/screenshots/screenshot3.png" width="30%" alt="Search" />
+  <img src="assets/images/20260308_152452.png" width="30%" alt="Setting" />
 </div>
 
 <br/>
