@@ -28,7 +28,7 @@
 
 <br/>
 
-## 📱 Screenshots
+## Screenshots
 
 <div align="center">
   <img src="assets/images/Screenshot_20260305_102012.jpg" width="100%" alt="Home" />
@@ -42,7 +42,7 @@
 
 ---
 
-## ✦ Features
+## Features
 
 - **Blazing Fast** — Built on Flutter, runs at native 60fps on every device, no compromises.
 - **Zero Ads, Zero Tracking** — No analytics, no fingerprinting, no background calls. Period.
@@ -53,7 +53,7 @@
 
 ---
 
-## 🛠️ Build from Source
+## Build from Source
 
 ### Requirements
 
@@ -123,7 +123,7 @@ Please follow the existing code style and keep commits clean.
 
 ---
 
-## 🐛 Reporting Bugs
+##  Reporting Bugs
 
 Open an [issue](https://github.com/Mrb-Official/MrbTube/issues) and include:
 
@@ -134,7 +134,7 @@ Open an [issue](https://github.com/Mrb-Official/MrbTube/issues) and include:
 
 ---
 
-## 📜 License
+## License
 
 ```
 MrbTube — Open Source Video Client
