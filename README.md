@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" width="100" alt="MrbTube Logo" />
+  <img src="assets/images/logo.png" width="100" alt="MrbTube Logo" />
   
   <h1>MrbTube</h1>
 
