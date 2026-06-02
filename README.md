@@ -29,6 +29,7 @@
 <br/>
 
 ## Screenshots
+Also Available on Apkpure and Uptodown app stores
 
 <div align="center">
   <img src="assets/images/Screenshot_20260305_102012.jpg" width="100%" alt="Home" />
