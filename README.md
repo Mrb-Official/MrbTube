@@ -1,28 +1,160 @@
 <div align="center">
-  <h1>MrbTube</h1>
-  <p><b>A modern, lightning-fast, and open-source video client built with Flutter.</b></p>
+  <img src="assets/logo.png" width="100" alt="MrbTube Logo" />
   
+  <h1>MrbTube</h1>
+
+  <p><i>A modern, lightning-fast, and open-source video client built with Flutter.</i></p>
+
   <p>
-    <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter Badge"></a>
-    <a href="https://github.com/Mrb-Official/MrbTube"><img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg?style=for-the-badge" alt="Open Source Love"></a>
-    <a href="https://github.com/Mrb-Official/MrbTube/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge" alt="License GPLv3"></a>
+    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+    <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+    <img src="https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green?style=for-the-badge&logo=android&logoColor=white" />
+    <img src="https://img.shields.io/github/stars/Mrb-Official/MrbTube?style=for-the-badge&logo=github&color=yellow" />
+  </p>
+
+  <br/>
+
+  <p>
+    <a href="#-features">Features</a> •
+    <a href="#-screenshots">Screenshots</a> •
+    <a href="#%EF%B8%8F-build-from-source">Build</a> •
+    <a href="#-contributing">Contributing</a> •
+    <a href="#-license">License</a>
   </p>
 </div>
 
 ---
 
-## ✨ Features
+<br/>
 
-* 🚀 **Lightning Fast:** Highly optimized and built with Flutter for smooth, native-like performance.
-* 🎨 **Clean UI:** Modern, distraction-free interface inspired by Material Design principles.
-* 🕵️ **Privacy Focused:** No hidden tracking, no intrusive ads. Your data stays yours.
-* 📱 **Cross-Platform:** Seamlessly runs across different platforms with a single codebase.
-* ⚡ **100% Open Source:** Transparent, community-driven, and free forever.
+## 📱 Screenshots
+
+<div align="center">
+  <img src="assets/screenshots/screenshot1.png" width="30%" alt="Home" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/screenshot2.png" width="30%" alt="Player" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/screenshot3.png" width="30%" alt="Search" />
+</div>
+
+<br/>
+
+---
+
+## ✦ Features
+
+- **Blazing Fast** — Built on Flutter, runs at native 60fps on every device, no compromises.
+- **Zero Ads, Zero Tracking** — No analytics, no fingerprinting, no background calls. Period.
+- **Minimal UI** — Clean, distraction-free design. Just you and your content.
+- **Cross-Platform** — Android, iOS — one codebase, one experience.
+- **Material You** — Follows Material Design 3 with dynamic theming support.
+- **100% Open Source** — GPLv3 licensed. Fork it, break it, improve it.
+
+---
 
 ## 🛠️ Build from Source
 
-Want to build or test **MrbTube** on your own machine? Follow these simple steps.
+### Requirements
 
-**Prerequisite:** Make sure you have the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
+- Flutter SDK `>=3.0.0` — [Install Flutter](https://docs.flutter.dev/get-started/install)
+- Dart `>=3.0.0`
+- Android Studio or VS Code
 
- Clone the repository
+### Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/Mrb-Official/MrbTube.git
+cd MrbTube
+
+# Get dependencies
+flutter pub get
+
+# Run on device/emulator
+flutter run
+```
+
+> Run `flutter doctor` first to verify your setup is clean.
+
+### Build Release APK
+
+```bash
+flutter build apk --release
+# Output: build/app/outputs/flutter-apk/app-release.apk
+```
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+├── main.dart           # Entry point
+├── screens/            # UI screens
+├── widgets/            # Shared components
+├── models/             # Data models
+└── services/           # API & video services
+
+assets/
+├── logo.png
+└── screenshots/
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, open an issue first to discuss what you'd like to change.
+
+```bash
+# 1. Fork the repo
+# 2. Create your branch
+git checkout -b feature/your-feature
+
+# 3. Commit and push
+git commit -m "feat: add your feature"
+git push origin feature/your-feature
+
+# 4. Open a Pull Request
+```
+
+Please follow the existing code style and keep commits clean.
+
+---
+
+## 🐛 Reporting Bugs
+
+Open an [issue](https://github.com/Mrb-Official/MrbTube/issues) and include:
+
+- Device & OS version
+- Steps to reproduce
+- Expected vs actual behavior
+- Logs (if possible)
+
+---
+
+## 📜 License
+
+```
+MrbTube — Open Source Video Client
+Copyright (C) 2024 Mrb-Official
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License.
+```
+
+Full license → [`LICENSE`](./LICENSE)
+
+---
+
+<div align="center">
+  <br/>
+  <p>
+    <img src="https://img.shields.io/badge/Made%20with-Flutter-02569B?style=flat-square&logo=flutter" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Made%20by-Mrb--Official-black?style=flat-square&logo=github" />
+  </p>
+  <p><sub>If this project helped you, consider giving it a ⭐</sub></p>
+</div>
